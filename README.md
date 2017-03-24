@@ -1,5 +1,7 @@
 Convert json to csv format.
 
+> a more clearer documentation is on the way.
+
 ## Install
 
 ```
@@ -46,8 +48,6 @@ output =>
 "Porsche", 60000, "green"
 ```
 
-> a more clearer documentation is on the way.
-
 ## License
 
-MIT © [Vajahath Ahmed](facebook.com/vajahath.ahmed)
+MIT © [Vajahath Ahmed](https://facebook.com/vajahath.ahmed)
