@@ -1,3 +1,5 @@
+
+
 <img src="https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.jpg" alt="Logo" width=400/>
 
 **Gulp plugin to Convert json to csv format.**
@@ -55,6 +57,10 @@ output =>
 "BMW", 35000, "black"
 "Porsche", 60000, "green"
 ```
+
+## Change log
+- **1.0.2**
+  - docs update
 
 ## License
 
