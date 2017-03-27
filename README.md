@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.jpg" alt="Logo" style="width: 200px;"/>
+<img src="https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.jpg" alt="Logo" width=400/>
 
 **Gulp plugin to Convert json to csv format.**
 
