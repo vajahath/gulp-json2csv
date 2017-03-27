@@ -1,8 +1,12 @@
 {
 	"name": "gulp-json2csv",
-	"version": "1.0.0-beta",
+	"version": "1.0.1",
 	"description": "Gulp plugin to convert json to csv format",
 	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/mocha ./tests --recursive",
+		"lint": "./node_modules/.bin/eslint ."
+	},
 	"directories": {
 		"test": "tests"
 	},
@@ -12,9 +16,9 @@
 		"lme": "^1.5.0",
 		"through2": "^2.0.3"
 	},
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+	"devDependencies": {
+		"eslint": "^3.18.0",
+		"mocha": "^3.2.0"
 	},
 	"repository": {
 		"type": "git",

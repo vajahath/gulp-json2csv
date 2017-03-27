@@ -5,8 +5,7 @@ var through = require('through2');
 var json2csv = require('json2csv');
 var lme = require('lme');
 
-module.exports = function(opts) {
-	opts = opts || {};
+module.exports = function() {
 
 	return through.obj(function(file, enc, cb) {
 		if (file.isNull()) {
