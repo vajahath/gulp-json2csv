@@ -2,6 +2,9 @@
 
 **Gulp plugin to Convert json to csv format.**
 
+[![Build Status](https://travis-ci.org/vajahath/gulp-json2csv.svg?branch=master)](https://travis-ci.org/vajahath/gulp-json2csv)
+[![Known Vulnerabilities](https://snyk.io/test/npm/gulp-json2csv/badge.svg)](https://snyk.io/test/npm/gulp-json2csv)
+
 > You can also use this package to convert json to excel format by simply renaming the output extension to excel's extension.
 
 This plugin is backed by [json2csv](https://www.npmjs.com/package/json2csv) module.
