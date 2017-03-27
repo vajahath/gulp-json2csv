@@ -1,4 +1,4 @@
-
+JSON `->` CSV
 
 <img src="https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.jpg" alt="Logo" width=400/>
 
@@ -59,7 +59,7 @@ output =>
 ```
 
 ## Change log
-- **1.0.2**
+- **1.0.3**
   - docs update
 
 ## License

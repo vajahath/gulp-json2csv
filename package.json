@@ -1,6 +1,6 @@
 {
 	"name": "gulp-json2csv",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Gulp plugin to convert json to csv format",
 	"main": "index.js",
 	"scripts": {
