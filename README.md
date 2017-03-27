@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.png)
+![](https://raw.githubusercontent.com/vajahath/gulp-json2csv/master/media/logo.jpeg)
 
 **Gulp plugin to Convert json to csv format.**
 
