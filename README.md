@@ -30,7 +30,7 @@ gulp.task('default', function() {
 	gulp.src('src/file.json')
 		.pipe(json2csv())
 		.pipe(gulp.dest('dist'))
-);
+});
 ```
 ## Example
 
