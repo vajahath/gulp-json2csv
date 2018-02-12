@@ -27,9 +27,10 @@ const gulp = require('gulp');
 const json2csv = require('gulp-json2csv');
 
 gulp.task('default', function() {
-	gulp.src('src/file.json')
+	gulp
+		.src('src/file.json')
 		.pipe(json2csv())
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('dist'));
 });
 ```
 
@@ -72,7 +73,7 @@ In case if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donat
 
 ## Change log
 
-* **1.0.3, 1.0.4, 1.0.5**
+* **1.0.3, 1.0.4, 1.0.5, 1.0.6**
     * docs update
 
 ## License
