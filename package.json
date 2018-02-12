@@ -24,17 +24,14 @@
 		"type": "git",
 		"url": "git+https://github.com/vajahath/gulp-json2csv.git"
 	},
-	"keywords": [
-		"gulp",
-		"json",
-		"csv",
-		"excel",
-		"converter"
-	],
+	"keywords": ["gulp", "json", "csv", "excel", "converter"],
 	"author": "Vajahath Ahmed <vajuoff.1@gmail.com>",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/vajahath/gulp-json2csv/issues"
 	},
-	"homepage": "https://github.com/vajahath/gulp-json2csv#readme"
+	"homepage": "https://github.com/vajahath/gulp-json2csv#readme",
+	"greenkeeper": {
+		"ignore": ["eslint", "mocha"]
+	}
 }
