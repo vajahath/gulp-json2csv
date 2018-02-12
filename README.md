@@ -32,40 +32,48 @@ gulp.task('default', function() {
 		.pipe(gulp.dest('dist'))
 );
 ```
+
 ## Example
 
 input:
+
 ```json
 [
-  {
-    "car": "Audi",
-    "price": 40000,
-    "color": "blue"
-  }, {
-    "car": "BMW",
-    "price": 35000,
-    "color": "black"
-  }, {
-    "car": "Porsche",
-    "price": 60000,
-    "color": "green"
-  }
+	{
+		"car": "Audi",
+		"price": 40000,
+		"color": "blue"
+	},
+	{
+		"car": "BMW",
+		"price": 35000,
+		"color": "black"
+	},
+	{
+		"car": "Porsche",
+		"price": 60000,
+		"color": "green"
+	}
 ]
 ```
+
 output =>
+
 ```
 "car", "price", "color"
 "Audi", 40000, "blue"
 "BMW", 35000, "black"
 "Porsche", 60000, "green"
 ```
+
 <br>
 
 In case if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donations]
 
 ## Change log
-- **1.0.3, 1.0.4**
-  - docs update
+
+* **1.0.3, 1.0.4, 1.0.5**
+    * docs update
 
 ## License
 
