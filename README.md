@@ -69,12 +69,12 @@ output =>
 
 <br>
 
-In case if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donations]
-
 ## Change log
 
-* **1.0.3, 1.0.4, 1.0.5, 1.0.6**
-    * docs update
+*   **1.1.0**
+    *   integrates [json2csv](https://github.com/zemirco/json2csv) v4.0.2
+*   **1.0.3, 1.0.4, 1.0.5, 1.0.6**
+    *   docs update
 
 ## License
 
