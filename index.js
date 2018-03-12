@@ -2,11 +2,10 @@
 
 var gutil = require('gulp-util');
 var through = require('through2');
-var json2csv = require('json2csv');
+var json2csvParser = require('json2csv').parse;
 var lme = require('lme');
 
 module.exports = function() {
-
 	return through.obj(function(file, enc, cb) {
 		if (file.isNull()) {
 			cb(null, file);
@@ -14,13 +13,20 @@ module.exports = function() {
 		}
 
 		if (file.isStream()) {
-			cb(new gutil.PluginError('gulp-json2csv', 'Streaming not supported'));
+			cb(
+				new gutil.PluginError(
+					'gulp-json2csv',
+					'Streaming not supported'
+				)
+			);
 			return;
 		}
 
 		try {
 			// console.log(JSON.parse(file.contents.toString()));
-			file.contents = new Buffer(json2csv({ data: JSON.parse(file.contents.toString()) }));
+			file.contents = new Buffer(
+				json2csvParser(JSON.parse(file.contents.toString()))
+			);
 			lme.s('csv created from json');
 			this.push(file);
 		} catch (err) {
